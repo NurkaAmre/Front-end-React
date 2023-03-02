@@ -10,13 +10,13 @@ export const retrieveGreetings = createAsyncThunk(GET_GREETINGS, async () => {
 
 const greetingsSlice = createSlice({
   name: 'greetings',
-  initialState: {text: ''},
+  initialState: { text: '' },
   extraReducers: (builder) => {
     builder.addCase(
       retrieveGreetings.fulfilled,
       (state, action) => {
         state.text = action.payload.message
-      }
+      },
     );
   },
 });
