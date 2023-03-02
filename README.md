@@ -47,7 +47,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Hello Rails Back End <a name="about-project"></a>
 
-This repo is a simple React project that displays random greeting messages provided by the rails API app [Hello Rails Back End App](https://github.com/adel-gu/hello-rails-back-end).
+This repo is a simple React project that displays random greeting messages provided by the rails API app [Hello Rails Back End App](https://github.com/NurkaAmre/back_end_rails).
 
 ## 🛠 Built With <a name="built-with"></a>
 
