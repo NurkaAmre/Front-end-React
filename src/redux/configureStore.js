@@ -1,13 +1,8 @@
-import { configureStore, applyMiddleware } from '@reduxjs/toolkit';
-import thunk from 'redux-thunk';
+import { configureStore } from '@reduxjs/toolkit';
 
 import greetings from './greetings/greetings';
 
-const rootReducer = {
-  reducer: {
-    greetings,
-  },
-};
-
-const store = configureStore(rootReducer, applyMiddleware(thunk));
+const store = configureStore({
+  reducer: greetings,
+});
 export default store;
